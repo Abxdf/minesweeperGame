@@ -26,5 +26,3 @@ third input is either 0 or 1 (no-flag and flag respectively)
 flag is used to open the box when you are sure of the mine 
 
 no-flag is used to open the box when you are not sure of the mine 
-
-Exception are not handled so care should be taken while providing input
