@@ -32,23 +32,23 @@ public class minesweeperMain {
 		while (wantoplay == 'y' || wantoplay == 'Y') {
 			displayHeader();
 			displayswitch();
-			Game g = null;
+			minesweeperGame g = null;
 
 			int choice = s.nextInt();
 			switch (choice) {
 			case 1:
-				g = new Game(8, 8, 10);
+				g = new minesweeperGame(8, 8, 10);
 				break;
 			case 2:
-				g = new Game(16, 16, 40);
+				g = new minesweeperGame(16, 16, 40);
 
 				break;
 			case 3:
-				g = new Game(30, 16, 99);
+				g = new minesweeperGame(30, 16, 99);
 
 				break;
 			case 4:
-				g = new Game(s.nextInt(), s.nextInt(), s.nextInt());
+				g = new minesweeperGame(s.nextInt(), s.nextInt(), s.nextInt());
 				break;
 
 			}
