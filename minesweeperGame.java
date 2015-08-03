@@ -11,7 +11,7 @@ class minesweeperGame {
 	private boolean[][] isopened;
 	public  int chances;
 
-	public Game(int row, int col, int mine) {
+	public minesweeperGame(int row, int col, int mine) {
 		rows = row;
 		cols = col;
 		mines = mine;
